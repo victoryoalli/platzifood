@@ -627,6 +627,52 @@ video {
   }
 }
 
+.form-control {
+  width: 100%;
+  line-height: 1.375;
+  color: #2d3748;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #90cdf4;
+  background-color: #e2e8f0;
+}
+
+.form-control:hover {
+  background-color: #fff;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn {
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #a0aec0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btn-primary {
+  background-color: #d69e2e;
+}
+
+.btn:hover {
+  box-shadow: none;
+  background-color: #4a5568;
+  color: #fff;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

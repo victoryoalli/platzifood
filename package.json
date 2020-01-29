@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/style.css"
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "watch": "postcss css/tailwind.css -o public/css/style.css -w"
   },
   "keywords": [],
   "author": "",

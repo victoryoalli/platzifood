@@ -21,7 +21,10 @@ Instalación de componentes usando `npm`
 
 ```sh
 cd platzifood
+
 npm i platzifood --save-dev
+
+live-server public
 ```
 
 ## Author

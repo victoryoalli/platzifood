@@ -24,6 +24,8 @@ cd platzifood
 
 npm i platzifood
 
+npm run build
+
 live-server public
 ```
 
